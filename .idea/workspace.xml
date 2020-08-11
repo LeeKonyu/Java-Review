@@ -6,15 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="156733a2-095c-4e70-bcf7-41f6fefa1454" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/bytes/ByteExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/bytes/DecoratorPatternInJavaIO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/chars/CharsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/chars/EncoderAndDecoder.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/file/FileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/serializable/SerializableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/serializable/file/a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/nio/NIO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOSelectorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/socket/SocketExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/socket/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/socket/TCPClient02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIO/socket/TCPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaReview/exception/ExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaReview/exception/ExceptionExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,11 +30,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/serializable/SerializableExample.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+            <state relative-caret-position="1270">
+              <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOSelectorExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/socket/TCPServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/bytes/ByteExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/nio/NIO.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="631">
+                <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -55,9 +128,10 @@
       <find>hashCode</find>
       <find>inputStream</find>
       <find>out</find>
-      <find>writeObject</find>
       <find>readObject(</find>
       <find>readObject</find>
+      <find>elementData</find>
+      <find>writeObject</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,6 +169,15 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaIO/chars/EncoderAndDecoder.md" />
         <option value="$PROJECT_DIR$/src/main/java/JavaIO/chars/CharsExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaIO/serializable/SerializableExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaIO/socket/SocketExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaIO/socket/TCPClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaIO/socket/TCPClient02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaIO/socket/TCPServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOSelectorExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaIO/nio/NIO.md" />
       </list>
     </option>
   </component>
@@ -126,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,7 +249,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="JavaIO" type="462c0819:PsiDirectoryNode" />
-              <item name="serializable" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaIO" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Review" type="b2602c69:ProjectViewProjectNode" />
@@ -177,10 +268,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="JavaReview" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java-Review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaReview" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -214,13 +315,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SerializableExample">
-    <configuration name="CharsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIO.chars.CharsExample" />
+  <component name="RunManager" selected="Application.NIOClient">
+    <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIO.nio.NIOClient" />
       <module name="java-review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaIO.chars.*" />
+          <option name="PATTERN" value="JavaIO.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,12 +329,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaReview.exception.ExceptionExample" />
+    <configuration name="NIOExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIO.nio.NIOExample" />
       <module name="java-review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaReview.exception.*" />
+          <option name="PATTERN" value="JavaIO.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,12 +342,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIO.file.FileExample" />
+    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIO.nio.NIOServer" />
       <module name="java-review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaIO.file.*" />
+          <option name="PATTERN" value="JavaIO.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,12 +355,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaReview.reflect.Reflect" />
+    <configuration name="TCPClient02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIO.socket.TCPClient02" />
       <module name="java-review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaReview.reflect.*" />
+          <option name="PATTERN" value="JavaIO.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,12 +368,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIO.serializable.SerializableExample" />
+    <configuration name="TCPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIO.socket.TCPServer" />
       <module name="java-review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaIO.serializable.*" />
+          <option name="PATTERN" value="JavaIO.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,11 +383,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SerializableExample" />
-        <item itemvalue="Application.CharsExample" />
-        <item itemvalue="Application.ExceptionExample" />
-        <item itemvalue="Application.FileExample" />
-        <item itemvalue="Application.Reflect" />
+        <item itemvalue="Application.NIOClient" />
+        <item itemvalue="Application.NIOServer" />
+        <item itemvalue="Application.NIOExample" />
+        <item itemvalue="Application.TCPClient02" />
+        <item itemvalue="Application.TCPServer" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +410,8 @@
       <workItem from="1597057788178" duration="290000" />
       <workItem from="1597058162298" duration="102000" />
       <workItem from="1597059024699" duration="4733000" />
-      <workItem from="1597068740250" duration="944000" />
+      <workItem from="1597068740250" duration="1795000" />
+      <workItem from="1597136641081" duration="12562000" />
     </task>
     <task id="LOCAL-00001" summary="Update Commit">
       <created>1597053271252</created>
@@ -318,11 +420,25 @@
       <option name="project" value="LOCAL" />
       <updated>1597053271252</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JavaIO First Commit">
+      <created>1597069840885</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597069840885</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update Commit">
+      <created>1597069878328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597069878328</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34814000" />
+    <option name="totallyTimeSpent" value="48227000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -337,7 +453,7 @@
     <frame x="-8" y="-8" width="1936" height="1216" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22121535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -345,7 +461,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32963988" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32902032" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.32902032" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39926064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -413,62 +529,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="JavaIO First Commit" />
     <MESSAGE value="Update Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Update Commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThinkingInOOP/ThreeMainFeatures/封装/Demo01.java" />
-    <entry file="uml://JAVA/ThinkingInOOP.ThreeMainFeatures.多态">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>ThinkingInOOP.ThreeMainFeatures.多态</OriginalElement>
-          <nodes>
-            <node x="" y="">ThinkingInOOP.ThreeMainFeatures.多态.Wind</node>
-            <node x="" y="">ThinkingInOOP.ThreeMainFeatures.多态.Music</node>
-            <node x="" y="">ThinkingInOOP.ThreeMainFeatures.多态.Percussion</node>
-            <node x="" y="">ThinkingInOOP.ThreeMainFeatures.多态.Instrument</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="96.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThinkingInOOP/threeMainFeatures/封装/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThinkingInOOP/threeMainFeatures/继承/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThinkingInOOP/threeMainFeatures/继承/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThinkingInOOP/threeMainFeatures/继承/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ThinkingInOOP/threeMainFeatures/多态/Instrument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -538,13 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaReview/string/StringType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -661,37 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/chars/EncoderAndDecoder.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="176">
-            <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/file/FileExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/bytes/ByteExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/chars/CharsExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,9 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/serializable/file/a1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/io/Serializable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -712,10 +740,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/serializable/file/a1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="758" column="28" selection-start-line="758" selection-start-column="17" selection-end-line="758" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/serializable/SerializableExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+        <state relative-caret-position="1226">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/socket/TCPClient02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/chars/CharsExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/chars/EncoderAndDecoder.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="176">
+            <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/socket/SocketExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/socket/TCPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="261" column="22" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="22" />
+          <folding>
+            <element signature="e#9208#9209#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/bytes/ByteExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="356" column="16" selection-start-line="356" selection-start-column="16" selection-end-line="356" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaReview/string/StringType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1270">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/socket/TCPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/nio/NIOSelectorExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/nio/NIO.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="631">
+            <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
