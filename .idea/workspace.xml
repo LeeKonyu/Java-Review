@@ -6,8 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="156733a2-095c-4e70-bcf7-41f6fefa1454" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaConcurrent/threadState/ThreadStateSwitch.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaConcurrent/threadState/线程状态转换.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Daemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Sleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Yield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThread.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThreadWithCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThreadWithRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThreadWithThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,20 +29,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaConcurrent/threadState/ThreadStateSwitch.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-50">
-                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,6 +110,14 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaContainer/collection/Collection.md" />
         <option value="$PROJECT_DIR$/src/main/java/JavaContainer/map/Map.md" />
         <option value="$PROJECT_DIR$/src/main/java/JavaConcurrent/threadState/ThreadStateSwitch.md" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThreadWithCallable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThreadWithThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThreadWithRunnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThread.md" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Executor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Daemon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Sleep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Yield.java" />
       </list>
     </option>
   </component>
@@ -147,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,19 +182,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="JavaConcurrent" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Java-Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaConcurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="threadState" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -232,7 +225,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NIOClient">
+  <component name="RunManager" selected="Application.Executor">
+    <configuration name="Executor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaConcurrent.basicThreadMechanism.Executor" />
+      <module name="java-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaConcurrent.basicThreadMechanism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaIO.nio.NIOClient" />
       <module name="java-review" />
@@ -246,12 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIO.nio.NIOExample" />
+    <configuration name="UseThreadWithCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaConcurrent.useThread.UseThreadWithCallable" />
       <module name="java-review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaIO.nio.*" />
+          <option name="PATTERN" value="JavaConcurrent.useThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIO.nio.NIOServer" />
+    <configuration name="UseThreadWithRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaConcurrent.useThread.UseThreadWithRunnable" />
       <module name="java-review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaIO.nio.*" />
+          <option name="PATTERN" value="JavaConcurrent.useThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,25 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPClient02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIO.socket.TCPClient02" />
+    <configuration name="UseThreadWithThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaConcurrent.useThread.UseThreadWithThread" />
       <module name="java-review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaIO.socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TCPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIO.socket.TCPServer" />
-      <module name="java-review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaIO.socket.*" />
+          <option name="PATTERN" value="JavaConcurrent.useThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Executor" />
+        <item itemvalue="Application.UseThreadWithThread" />
+        <item itemvalue="Application.UseThreadWithCallable" />
+        <item itemvalue="Application.UseThreadWithRunnable" />
         <item itemvalue="Application.NIOClient" />
-        <item itemvalue="Application.NIOServer" />
-        <item itemvalue="Application.NIOExample" />
-        <item itemvalue="Application.TCPClient02" />
-        <item itemvalue="Application.TCPServer" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +323,8 @@
       <workItem from="1597068740250" duration="1795000" />
       <workItem from="1597136641081" duration="13601000" />
       <workItem from="1597155710357" duration="293000" />
-      <workItem from="1597221637310" duration="8165000" />
+      <workItem from="1597221637310" duration="8311000" />
+      <workItem from="1597303983259" duration="3287000" />
     </task>
     <task id="LOCAL-00001" summary="Update Commit">
       <created>1597053271252</created>
@@ -367,11 +361,18 @@
       <option name="project" value="LOCAL" />
       <updated>1597227243695</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Java Concurrent First Commit">
+      <created>1597246744175</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597246744175</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57724000" />
+    <option name="totallyTimeSpent" value="61157000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -384,9 +385,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1216" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22867803" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23134328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -394,18 +394,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32902032" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32902032" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32902032" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.32902032" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39926064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32994455" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.2948244" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49840087" visible="true" weight="0.2948244" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32963988" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50159913" side_tool="true" weight="0.32902032" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4989339" weight="0.3271719" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -503,59 +503,10 @@
     <MESSAGE value="JavaIO First Commit" />
     <MESSAGE value="Update Commit" />
     <MESSAGE value="Update Java Container Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Java Container Commit" />
+    <MESSAGE value="Java Concurrent First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Concurrent First Commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="779" column="25" selection-start-line="779" selection-start-column="25" selection-end-line="779" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="3166" column="25" selection-start-line="3166" selection-start-column="25" selection-end-line="3166" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="199" column="23" selection-start-line="199" selection-start-column="11" selection-end-line="199" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaReview/extend/Interface.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaReview/operation/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="78" column="51" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaReview/object/ObjectExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="100" column="70" selection-start-line="100" selection-start-column="70" selection-end-line="100" selection-end-column="70" />
-          <folding>
-            <element signature="e#3985#3986#0" expanded="true" />
-            <element signature="e#4026#4027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaReview/extend/Extends.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
@@ -617,6 +568,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaIO/bytes/DecoratorPatternInJavaIO.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="242">
@@ -625,7 +577,6 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaReview/dataType/DataType.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -913,10 +864,87 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaConcurrent/threadState/ThreadStateSwitch.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-50">
-            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <first_editor relative-caret-position="990">
+            <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThreadWithRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThreadWithCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThreadWithThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaConcurrent/useThread/UseThread.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="507">
+            <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Daemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Sleep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaConcurrent/basicThreadMechanism/Yield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
